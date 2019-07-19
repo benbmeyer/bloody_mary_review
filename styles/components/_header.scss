@@ -1,0 +1,25 @@
+.header {
+    background: #f0bbc6;
+}
+
+.headercontent {
+    align-items: center;
+    font-family: 'Literata', serif; 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.headertitle {
+    text-shadow: 2px 2px 3px #616060;
+    color: $pink;
+    font-family: 'Rock Salt', cursive;
+    text-decoration: none;
+}
+
+.reviewlink {
+    text-shadow: 1px 1px 2px #616060;
+    color: $pink;
+    text-decoration: none;
+}

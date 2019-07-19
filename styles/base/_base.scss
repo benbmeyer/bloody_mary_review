@@ -1,0 +1,46 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: lightgray;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.content-container1 {
+    margin: 0 auto;
+    padding: 0 8px;
+    max-width: 80rem;
+}
+
+.content-container2 {
+    margin: 0 auto;
+    padding: 0 8px;
+    max-width: 190rem;
+}
+
+.is-active {
+    font-weight: bold;
+}
+
+.background-in {
+    background-size: cover;
+    height: 100vw;
+    width: 100vw;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25) ), url('/img/Bloody-Mary-Drink-Desktop-Wallpaper-HD.jpg');
+}

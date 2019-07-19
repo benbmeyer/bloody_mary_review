@@ -1,0 +1,29 @@
+.background {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25) ), url('/img/Bloody-Mary-Drink-Desktop-Wallpaper-HD.jpg');
+    background-size: cover;
+    display: flex;
+    height: 100vw;
+    justify-content: center;
+    width: 100vw;
+}
+
+.title {
+    color: $pink;
+    font-family: 'Rock Salt', cursive;
+    font-size: 10rem;
+    text-shadow: 5px 5px 8px black;
+    text-align: center;
+}
+
+.logincontainer {
+    margin:  0 auto;
+    padding: 0 10px;
+    max-width: 100rem;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: 'Literata', serif;
+    font-size: 3rem;
+    margin: 5;
+}

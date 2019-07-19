@@ -1,0 +1,32 @@
+.button {
+    background: $pink;
+    border: none;
+    color: white;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1;
+    padding: 1.2rem;
+    text-decoration: none;
+
+}
+
+.button-login {
+    background: $pink;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1;
+    padding: 1.5rem;
+    text-decoration: none;
+    max-width: 300px;
+    margin: auto;
+
+}
+
+.button--link {
+    background: none;
+}
